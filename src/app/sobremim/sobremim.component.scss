@@ -1,0 +1,42 @@
+.sobre_mim {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 110px auto;
+
+    img {
+        width: 74%;
+    }
+
+    .resumo {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .imagem {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    p {
+        color: #ffffff;
+        text-align: justify;
+    }
+
+    a {
+        background-color: #6c63ff;
+        border-radius: 20px;
+        padding: 10px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    a:hover{
+        background-color: #453cf9;
+        transition: 0.3s;
+    }
+}
