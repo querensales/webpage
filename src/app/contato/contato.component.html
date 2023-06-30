@@ -1,34 +1,31 @@
-<section class="container-md">
-  <h4>Agora que você já me conhece um pouquinho, me conta ai como posso te
-    ajudar?</h4>
-  <p>
-    No campo de mensagem não se preocupe com textão, eu vou ler com muito
-    carinho. Vou deixar aqui três sugestões para te ajudar a escrever para mim.
-  </p>
+<section class="container-lg">
 
-  <ul>
-    <li>De onde você é?</li>
-    <li>O que você precisa?</li>
-    <li>Como posso te ajudar?</li>
-  </ul>
+  <div class="texto_direcao">
+    <h4>Agora que você já me conhece um pouquinho, me conta ai como posso te
+      ajudar?</h4>
+    <p>
+      Para termos uma comunicação acertiva vou deixar aqui três perguntinhas que
+      podem te direcionar melhor
+      na sua mensagem.
+    </p>
+    <ul>
+      <li>De onde você é?</li>
+      <li>Qual a sua necessidade?</li>
+      <li>Como posso te ajudar?</li>
+    </ul>
+  </div>
+
+  <form (ngSubmit)="enviarMensagem()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nome:</label>
+      <input type="text" class="form-control" id="name" required>
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+    </div>
+
+    <div class="mensagem mb-3">
+      <label for="mensage" class="form-label">Deixe sua mensagem:</label>
+      <textarea class="form-control" id="textarea" rows="7"></textarea>
+    </div>
+  </form>
 </section>
-
-<form (ngSubmit)="enviarMensagem()">
-  <div>
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome" required>
-  </div>
-
-  <div>
-    <label for="email">E-mail:</label>
-    <input type="email" id="email" name="email" required>
-  </div>
-
-  <div>
-    <label for="mensagem">Mensagem:</label>
-    <textarea id="mensagem" name="mensagem"
-      placeholder="escreva aqui sua mensagem" required></textarea>
-  </div>
-
-  <button type="submit">Enviar</button>
-</form>
