@@ -1,4 +1,4 @@
-section{
+section {
     display: flex;
     width: 70%;
     justify-content: space-around;
@@ -7,21 +7,43 @@ section{
     margin: 85px auto;
 
 
-    .texto_direcao{
+    .texto_direcao {
         margin-top: 50px;
         width: 50%;
     }
 
-    form{
+    form {
         width: 40%;
     }
 
-    .mensagem{
+    .mensagem {
         margin-top: 20px;
     }
 
-    input{
+    input {
         margin-bottom: 15px;
     }
 
+    .enviar_mensagem {
+        background-color: #6c63ff;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .enviar_mensagem:hover {
+        background-color: #453cf9;
+        transition: 0.3s;
+    }
+
+    b {
+        font-size: 30px;
+        color: #453cf9;
+    }
+
+    h4{
+        margin-bottom: 50px;
+    }
 }

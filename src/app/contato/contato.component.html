@@ -1,8 +1,9 @@
 <section class="container-lg">
 
   <div class="texto_direcao">
-    <h4>Agora que você já me conhece um pouquinho, me conta ai como posso te
-      ajudar?</h4>
+    <h4>Agora que você já me conhece um pouquinho,
+      <b>como posso te ajudar?</b>
+    </h4>
     <p>
       Para termos uma comunicação acertiva vou deixar aqui três perguntinhas que
       podem te direcionar melhor
@@ -18,14 +19,16 @@
   <form (ngSubmit)="enviarMensagem()">
     <div class="mb-3">
       <label for="name" class="form-label">Nome:</label>
-      <input type="text" class="form-control" id="name" required>
+      <input type="text" class="form-control" id="name" minlength="4" required>
       <label for="email" class="form-label">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+      <input type="email" class="form-control" id="email" required>
     </div>
 
     <div class="mensagem mb-3">
       <label for="mensage" class="form-label">Deixe sua mensagem:</label>
       <textarea class="form-control" id="textarea" rows="7"></textarea>
     </div>
+
+    <button class="enviar_mensagem" type="submit">Enviar</button>
   </form>
 </section>
