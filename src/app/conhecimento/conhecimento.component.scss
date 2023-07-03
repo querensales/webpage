@@ -1,5 +1,18 @@
-ul{
-    display: grid;
+section {
+    margin: 90px auto;
+    display: flex;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
-    color: #ffffff;
+    justify-content: space-around;
+    align-items: center;
+    
+    ul {
+        color: #ffffff;
+    }
+
+    li {
+        list-style: none;
+    }
+
+
 }
