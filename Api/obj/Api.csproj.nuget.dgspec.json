@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ghr-pessoal\\webpage\\Api\\Api.csproj": {}
+    "C:\\Users\\quere\\GHR\\querensales\\Api\\Api.csproj": {}
   },
   "projects": {
-    "D:\\ghr-pessoal\\webpage\\Api\\Api.csproj": {
+    "C:\\Users\\quere\\GHR\\querensales\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ghr-pessoal\\webpage\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\quere\\GHR\\querensales\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "D:\\ghr-pessoal\\webpage\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\klebe\\.nuget\\packages\\",
-        "outputPath": "D:\\ghr-pessoal\\webpage\\Api\\obj\\",
+        "projectPath": "C:\\Users\\quere\\GHR\\querensales\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\quere\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\quere\\GHR\\querensales\\Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\klebe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\quere\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
