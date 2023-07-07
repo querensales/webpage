@@ -14,3 +14,14 @@ section {
         width: 55%;
     }
 }
+
+@media (max-width: 500px){
+
+        section{
+            flex-direction: column;
+    };
+
+    img{
+        margin-top: 40px;
+    }
+}
