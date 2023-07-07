@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,6 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './conhecimento.component.html',
   styleUrls: ['./conhecimento.component.scss']
 })
+
 export class ConhecimentoComponent {
+  constructor(private HttpClient: HttpClient) { }
 
 }

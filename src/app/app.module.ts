@@ -6,6 +6,7 @@ import { SobremimComponent } from './sobremim/sobremim.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { ContatoComponent } from './contato/contato.component';
 import { ConhecimentoComponent } from './conhecimento/conhecimento.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -13,11 +14,14 @@ import { ConhecimentoComponent } from './conhecimento/conhecimento.component';
     SobremimComponent,
     InicioComponent,
     ContatoComponent,
-    ConhecimentoComponent
+    ConhecimentoComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
