@@ -7,7 +7,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./conhecimento.component.scss']
 })
 
-export class ConhecimentoComponent {
-  constructor(private HttpClient: HttpClient) { }
-
-}
+export class ConhecimentoComponent { }
